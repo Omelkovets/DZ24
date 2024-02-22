@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+	function isEmpty(obj) {
+  for (let key in obj) {
+    return false;
+  }
+  return true;
+}
+// Приклад використання:
+let obj1 = {};
+let obj2 = { name: 'Іван' };
+console.log(isEmpty(obj1)); // true
+console.log(isEmpty(obj2)); // false
+
+</script>
+</body>
+</html>
